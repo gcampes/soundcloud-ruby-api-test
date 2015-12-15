@@ -1,0 +1,35 @@
+GEM
+  specs:
+    hashie (2.1.2)
+    httmultiparty (0.3.16)
+      httparty (>= 0.7.3)
+      mimemagic
+      multipart-post
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    mimemagic (0.3.0)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    soundcloud (0.3.2)
+      hashie (~> 2.0)
+      httmultiparty (~> 0.3.0)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sinatra (= 1.4.6)
+  soundcloud (= 0.3.2)
+
+BUNDLED WITH
+   1.11.1
