@@ -1,22 +1,18 @@
-
-
 <h1>123</h1>
-
-
 <html>
   <head>
-    <link rel="stylesheet" href="css/sc-player-standard.css" type="text/css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/soundcloud.player.api.js"></script>
-    <script type="text/javascript" src="js/sc-player.js"></script>
-    <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
   </head>
-
   <body>
-
-  <% html.each do |embed| %>
-    <%= embed %>
-  <% end %>
-  
+    <style media="screen">
+      body{
+        background-color: #000;
+        iframe{
+          margin-bottom: 50px;
+        }
+      }
+    </style>
+    <% html.each do |embed| %>
+      <%= embed %>
+    <% end %>
   </body>
 </html>
